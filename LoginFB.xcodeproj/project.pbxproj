@@ -12,6 +12,14 @@
 		768FFCAA1DCD4FAF005A788C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 768FFCA81DCD4FAF005A788C /* Main.storyboard */; };
 		768FFCAC1DCD4FAF005A788C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 768FFCAB1DCD4FAF005A788C /* Assets.xcassets */; };
 		768FFCAF1DCD4FAF005A788C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 768FFCAD1DCD4FAF005A788C /* LaunchScreen.storyboard */; };
+		768FFCBC1DCD5022005A788C /* FBAudienceNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 768FFCB61DCD5022005A788C /* FBAudienceNetwork.framework */; };
+		768FFCBD1DCD5022005A788C /* FBNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 768FFCB71DCD5022005A788C /* FBNotifications.framework */; };
+		768FFCBE1DCD5022005A788C /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 768FFCB81DCD5022005A788C /* FBSDKCoreKit.framework */; };
+		768FFCBF1DCD5022005A788C /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 768FFCB91DCD5022005A788C /* FBSDKLoginKit.framework */; };
+		768FFCC01DCD5022005A788C /* FBSDKMessengerShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 768FFCBA1DCD5022005A788C /* FBSDKMessengerShareKit.framework */; };
+		768FFCC11DCD5022005A788C /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 768FFCBB1DCD5022005A788C /* FBSDKShareKit.framework */; };
+		768FFCC31DCD5036005A788C /* AccountKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 768FFCC21DCD5036005A788C /* AccountKit.framework */; };
+		768FFCC51DCD5041005A788C /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 768FFCC41DCD5041005A788C /* Bolts.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,16 @@
 		768FFCAB1DCD4FAF005A788C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		768FFCAE1DCD4FAF005A788C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		768FFCB01DCD4FAF005A788C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		768FFCB61DCD5022005A788C /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBAudienceNetwork.framework; path = "../../FacebookSDKs-iOS-4.17.0/FBAudienceNetwork.framework"; sourceTree = "<group>"; };
+		768FFCB71DCD5022005A788C /* FBNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBNotifications.framework; path = "../../FacebookSDKs-iOS-4.17.0/FBNotifications.framework"; sourceTree = "<group>"; };
+		768FFCB81DCD5022005A788C /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../FacebookSDKs-iOS-4.17.0/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		768FFCB91DCD5022005A788C /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../FacebookSDKs-iOS-4.17.0/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		768FFCBA1DCD5022005A788C /* FBSDKMessengerShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKMessengerShareKit.framework; path = "../../FacebookSDKs-iOS-4.17.0/FBSDKMessengerShareKit.framework"; sourceTree = "<group>"; };
+		768FFCBB1DCD5022005A788C /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "../../FacebookSDKs-iOS-4.17.0/FBSDKShareKit.framework"; sourceTree = "<group>"; };
+		768FFCC21DCD5036005A788C /* AccountKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AccountKit.framework; path = "../../FacebookSDKs-iOS-4.17.0/AccountKit.framework"; sourceTree = "<group>"; };
+		768FFCC41DCD5041005A788C /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../FacebookSDKs-iOS-4.17.0/Bolts.framework"; sourceTree = "<group>"; };
+		768FFCC61DCD53C9005A788C /* BridgeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgeHeader.h; sourceTree = "<group>"; };
+		768FFCC71DCD7BEB005A788C /* LoginFB.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = LoginFB.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +47,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				768FFCBC1DCD5022005A788C /* FBAudienceNetwork.framework in Frameworks */,
+				768FFCBE1DCD5022005A788C /* FBSDKCoreKit.framework in Frameworks */,
+				768FFCC31DCD5036005A788C /* AccountKit.framework in Frameworks */,
+				768FFCC11DCD5022005A788C /* FBSDKShareKit.framework in Frameworks */,
+				768FFCC01DCD5022005A788C /* FBSDKMessengerShareKit.framework in Frameworks */,
+				768FFCBF1DCD5022005A788C /* FBSDKLoginKit.framework in Frameworks */,
+				768FFCBD1DCD5022005A788C /* FBNotifications.framework in Frameworks */,
+				768FFCC51DCD5041005A788C /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +64,14 @@
 		768FFC981DCD4FAF005A788C = {
 			isa = PBXGroup;
 			children = (
+				768FFCC41DCD5041005A788C /* Bolts.framework */,
+				768FFCC21DCD5036005A788C /* AccountKit.framework */,
+				768FFCB61DCD5022005A788C /* FBAudienceNetwork.framework */,
+				768FFCB71DCD5022005A788C /* FBNotifications.framework */,
+				768FFCB81DCD5022005A788C /* FBSDKCoreKit.framework */,
+				768FFCB91DCD5022005A788C /* FBSDKLoginKit.framework */,
+				768FFCBA1DCD5022005A788C /* FBSDKMessengerShareKit.framework */,
+				768FFCBB1DCD5022005A788C /* FBSDKShareKit.framework */,
 				768FFCA31DCD4FAF005A788C /* LoginFB */,
 				768FFCA21DCD4FAF005A788C /* Products */,
 			);
@@ -54,12 +88,14 @@
 		768FFCA31DCD4FAF005A788C /* LoginFB */ = {
 			isa = PBXGroup;
 			children = (
+				768FFCC71DCD7BEB005A788C /* LoginFB.entitlements */,
 				768FFCA41DCD4FAF005A788C /* AppDelegate.swift */,
 				768FFCA61DCD4FAF005A788C /* ViewController.swift */,
 				768FFCA81DCD4FAF005A788C /* Main.storyboard */,
 				768FFCAB1DCD4FAF005A788C /* Assets.xcassets */,
 				768FFCAD1DCD4FAF005A788C /* LaunchScreen.storyboard */,
 				768FFCB01DCD4FAF005A788C /* Info.plist */,
+				768FFCC61DCD53C9005A788C /* BridgeHeader.h */,
 			);
 			path = LoginFB;
 			sourceTree = "<group>";
@@ -97,6 +133,11 @@
 					768FFCA01DCD4FAF005A788C = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = QE6F47T37T;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -252,10 +293,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LoginFB/LoginFB.entitlements;
+				FRAMEWORK_SEARCH_PATHS = "/Users/rayo/FacebookSDKs-iOS-4.17.0";
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "/Users/rayo/FacebookSDKs-iOS-4.17.0";
 				INFOPLIST_FILE = LoginFB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mx.PeraltaRaymundo.LoginFB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = LoginFB/BridgeHeader.h;
 			};
 			name = Debug;
 		};
@@ -263,10 +308,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LoginFB/LoginFB.entitlements;
+				FRAMEWORK_SEARCH_PATHS = "/Users/rayo/FacebookSDKs-iOS-4.17.0";
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "/Users/rayo/FacebookSDKs-iOS-4.17.0";
 				INFOPLIST_FILE = LoginFB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mx.PeraltaRaymundo.LoginFB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = LoginFB/BridgeHeader.h;
 			};
 			name = Release;
 		};
